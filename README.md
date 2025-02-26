@@ -9,37 +9,29 @@ This repo is the code used for the introductionary example in the course BTH013 
 You need the following tools installed:
 * git (to pull the repository)
 * node.js
-* yarn
 
 ### Install node.js
 
 Follow the instructions at [nodejs.org/download](https://nodejs.org/en/download).
 If you have node installed since before, make sure you have updated it to the latest major version.
 
-### Install yarn
-Follow the instructions at [https://yarnpkg.com]()
 
 ## Setup
 
 
-## Project setup
+### Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+npm run build
 ```
 
 ### Customize configuration
